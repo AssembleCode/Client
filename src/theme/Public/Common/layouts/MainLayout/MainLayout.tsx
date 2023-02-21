@@ -43,8 +43,8 @@ export const MainLayout: React.FC = () => {
                                 <NavLink to={'/contact-us'} className="nav-link">Contact Us</NavLink>
                             </li>
                         </ul>
-                        <NavLink to={'/log-in'} className="btn btn-sm btn-outline-light ms-3" type="button">Login</NavLink>
-                        <NavLink to={'/register'} className="btn btn-sm btn-warning btn-outline-secondary ms-3" type="button">Register</NavLink>
+                        <NavLink to={'/auth/login'} className="btn btn-sm btn-outline-light ms-3" type="button">Login</NavLink>
+                        <NavLink to={'/auth/register'} className="btn btn-sm btn-warning btn-outline-secondary ms-3" type="button">Register</NavLink>
                     </div>
                 </div>
             </nav>
