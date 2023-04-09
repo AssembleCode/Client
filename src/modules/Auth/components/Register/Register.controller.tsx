@@ -1,8 +1,10 @@
 import React, { FC } from "react";
+import RegisterView from "./Register.view";
+import './Register.scss';
 
 const RegisterController: FC<any> = () => {
     return (
-        <div>Register</div>
+        <RegisterView />
     );
 }
 

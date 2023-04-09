@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
+import { Link, NavLink, Outlet } from 'react-router-dom';
 import programmingImg from './../../../../../assets/images/programming.svg';
 import desktopImg from './../../../../../assets/images/desktop-solid.svg';
 import mobileImg from './../../../../../assets/images/mobile-solid.svg';
@@ -24,7 +24,7 @@ export const MainLayout: React.FC = () => {
             {/* NAVBAR */}
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top border-bottom">
                 <div className="container px-5">
-                    <a className="navbar-brand" href="#">AssembleCode</a>
+                    <Link className="navbar-brand" to="/">Assemble Code</Link>
                     <button className={`navbar-toggler ${isCollapsed ? 'collapsed' : ''}`} onClick={handleCollapse} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
