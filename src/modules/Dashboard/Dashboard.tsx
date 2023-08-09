@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 const Dashboard: FC<any> = props => {
     return (
-        <div>Welcome to Admin Dashboard</div>
+        <div style={{ height: '100vh' }}>Welcome to Admin Dashboard</div>
     )
 }
 
